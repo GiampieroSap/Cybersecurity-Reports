@@ -1,6 +1,6 @@
 # Informes de Ciberseguridad
 
-*[Read it in English](README.md)*
+[English](README.md) · **Español** · [Italiano](README.it.md)
 
 Una colección de informes técnicos sobre laboratorios, máquinas y retos CTF que he resuelto.
 
@@ -15,9 +15,7 @@ funciona una técnica, no solo demostrar que funciona.
 
 | Informe | Contexto | Categoría | Técnicas principales |
 |---|---|---|---|
-| [The Emptiness Machine](The-Emptiness-Machine-HTB-2026.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, sobrescritura parcial, fuga de libc |
-
-> Los informes están redactados actualmente en italiano. Está previsto publicar versiones en inglés.
+| The Emptiness Machine <br> [EN](The-Emptiness-Machine-HTB-2026-EN.pdf) · [IT](The-Emptiness-Machine-HTB-2026-IT.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, sobrescritura parcial, fuga de libc |
 
 ---
 

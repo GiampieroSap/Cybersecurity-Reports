@@ -1,31 +1,33 @@
 # Cybersecurity Reports
 
-Raccolta di report tecnici su laboratori, macchine e challenge CTF che ho risolto.
+**English** · [Español](README.es.md) · [Italiano](README.it.md)
 
-Ogni report è un documento autonomo in PDF: descrive l'obiettivo, l'ambiente, le fasi
-dell'attacco con evidenze, e chiude con le conclusioni tecniche e difensive. Lo stile è
-narrativo e non a elenco di comandi: l'obiettivo è spiegare **perché** una tecnica funziona,
-non solo mostrare che funziona.
+A collection of technical reports on labs, machines and CTF challenges I have solved.
+
+Each report is a standalone PDF covering the objective, the environment, the attack phases with
+supporting evidence, and closing technical and defensive conclusions. The style is deliberately
+narrative rather than a list of commands: the goal is to explain **why** a technique works, not
+just to show that it does.
 
 ---
 
-## Report disponibili
+## Available reports
 
-| Report | Contesto | Categoria | Tecniche principali |
+| Report | Context | Category | Key techniques |
 |---|---|---|---|
-| [The Emptiness Machine](The-Emptiness-Machine-HTB-2026.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, leak di libc |
+| The Emptiness Machine <br> [EN](The-Emptiness-Machine-HTB-2026-EN.pdf) · [IT](The-Emptiness-Machine-HTB-2026-IT.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, libc leak |
 
 ---
 
-## Competenze coperte
+## Skills covered
 
-**Binary exploitation**: analisi statica con objdump e nm, reversing di funzioni, sfruttamento
-di strutture interne di glibc, bypass di mitigazioni (Full RELRO, PIE, NX), debugging con GDB
-tramite breakpoint e watchpoint hardware, automazione degli exploit in Python con pwntools.
+**Binary exploitation**: static analysis with objdump and nm, function reversing, exploitation of
+internal glibc structures, mitigation bypass (Full RELRO, PIE, NX), GDB debugging with breakpoints
+and hardware watchpoints, exploit automation in Python with pwntools.
 
 ---
 
-## Contatti
+## Contact
 
 Giampiero Saponaro, junior cybersecurity specialist
 
@@ -34,4 +36,4 @@ Giampiero Saponaro, junior cybersecurity specialist
 
 ---
 
-*I report riguardano esclusivamente ambienti di laboratorio autorizzati e challenge CTF concluse.*
+*All reports refer exclusively to authorised lab environments and completed CTF challenges.*
