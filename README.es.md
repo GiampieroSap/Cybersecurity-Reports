@@ -13,9 +13,10 @@ funciona una técnica, no solo demostrar que funciona.
 
 ## Informes disponibles
 
-| Informe | Contexto | Categoría | Técnicas principales |
-|---|---|---|---|
-| The Emptiness Machine <br> [EN](The-Emptiness-Machine-HTB-2026-EN.pdf) · [IT](The-Emptiness-Machine-HTB-2026-IT.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, sobrescritura parcial, fuga de libc |
+| Informe | Contexto | Categoría | Técnicas principales | Leer |
+|---|---|---|---|---|
+| The Emptiness Machine | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, sobrescritura parcial, fuga de libc | [EN](English/The-Emptiness-Machine-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/The-Emptiness-Machine-HTB-2026-ES.pdf) · [IT](Italiano/The-Emptiness-Machine-HTB-2026-IT.pdf) |
+| False Ferry | HTB Cyber Apocalypse 2026 | Cloud Security | Enumeración IAM en AWS, STS AssumeRole, versionado de objetos S3 | [EN](English/False-Ferry-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/False-Ferry-HTB-2026-ES.pdf) · [IT](Italiano/False-Ferry-HTB-2026-IT.pdf) |
 
 ---
 
@@ -24,6 +25,9 @@ funciona una técnica, no solo demostrar que funciona.
 **Explotación de binarios**: análisis estático con objdump y nm, reversing de funciones, explotación
 de estructuras internas de glibc, evasión de mitigaciones (Full RELRO, PIE, NX), depuración con GDB
 mediante breakpoints y watchpoints por hardware, automatización de exploits en Python con pwntools.
+
+**Seguridad en la nube**: enumeración de AWS con la CLI, análisis de permisos IAM, asunción de roles
+mediante STS, recuperación de versiones anteriores de objetos en buckets S3.
 
 ---
 

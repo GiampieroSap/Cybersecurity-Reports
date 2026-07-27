@@ -13,9 +13,10 @@ just to show that it does.
 
 ## Available reports
 
-| Report | Context | Category | Key techniques |
-|---|---|---|---|
-| The Emptiness Machine <br> [EN](The-Emptiness-Machine-HTB-2026-EN.pdf) · [IT](The-Emptiness-Machine-HTB-2026-IT.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, libc leak |
+| Report | Context | Category | Key techniques | Read |
+|---|---|---|---|---|
+| The Emptiness Machine | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, libc leak | [EN](English/The-Emptiness-Machine-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/The-Emptiness-Machine-HTB-2026-ES.pdf) · [IT](Italiano/The-Emptiness-Machine-HTB-2026-IT.pdf) |
+| False Ferry | HTB Cyber Apocalypse 2026 | Cloud Security | AWS IAM enumeration, STS AssumeRole, S3 object versioning | [EN](English/False-Ferry-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/False-Ferry-HTB-2026-ES.pdf) · [IT](Italiano/False-Ferry-HTB-2026-IT.pdf) |
 
 ---
 
@@ -24,6 +25,9 @@ just to show that it does.
 **Binary exploitation**: static analysis with objdump and nm, function reversing, exploitation of
 internal glibc structures, mitigation bypass (Full RELRO, PIE, NX), GDB debugging with breakpoints
 and hardware watchpoints, exploit automation in Python with pwntools.
+
+**Cloud security**: AWS enumeration with the CLI, IAM permission analysis, role assumption via STS,
+recovery of previous object versions from S3 buckets.
 
 ---
 

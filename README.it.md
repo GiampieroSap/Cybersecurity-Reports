@@ -12,9 +12,10 @@ di comandi: l'obiettivo è spiegare **perché** una tecnica funziona, non solo m
 
 ## Report disponibili
 
-| Report | Contesto | Categoria | Tecniche principali |
-|---|---|---|---|
-| The Emptiness Machine <br> [EN](The-Emptiness-Machine-HTB-2026-EN.pdf) · [IT](The-Emptiness-Machine-HTB-2026-IT.pdf) | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, leak di libc |
+| Report | Contesto | Categoria | Tecniche principali | Leggi |
+|---|---|---|---|---|
+| The Emptiness Machine | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, leak di libc | [EN](English/The-Emptiness-Machine-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/The-Emptiness-Machine-HTB-2026-ES.pdf) · [IT](Italiano/The-Emptiness-Machine-HTB-2026-IT.pdf) |
+| False Ferry | HTB Cyber Apocalypse 2026 | Cloud Security | Enumerazione IAM su AWS, STS AssumeRole, versioning degli oggetti S3 | [EN](English/False-Ferry-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/False-Ferry-HTB-2026-ES.pdf) · [IT](Italiano/False-Ferry-HTB-2026-IT.pdf) |
 
 ---
 
@@ -23,6 +24,9 @@ di comandi: l'obiettivo è spiegare **perché** una tecnica funziona, non solo m
 **Binary exploitation**: analisi statica con objdump e nm, reversing di funzioni, sfruttamento di
 strutture interne di glibc, bypass di mitigazioni (Full RELRO, PIE, NX), debugging con GDB tramite
 breakpoint e watchpoint hardware, automazione degli exploit in Python con pwntools.
+
+**Cloud security**: enumerazione di AWS tramite CLI, analisi dei permessi IAM, assunzione di ruoli
+via STS, recupero di versioni precedenti di oggetti da bucket S3.
 
 ---
 
