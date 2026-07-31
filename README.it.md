@@ -16,6 +16,7 @@ di comandi: l'obiettivo è spiegare **perché** una tecnica funziona, non solo m
 |---|---|---|---|---|
 | The Emptiness Machine | HTB Cyber Apocalypse 2026 | Binary Exploitation | FSOP, House of Apple 2, partial overwrite, leak di libc | [EN](English/The-Emptiness-Machine-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/The-Emptiness-Machine-HTB-2026-ES.pdf) · [IT](Italiano/The-Emptiness-Machine-HTB-2026-IT.pdf) |
 | False Ferry | HTB Cyber Apocalypse 2026 | Cloud Security | Enumerazione IAM su AWS, STS AssumeRole, versioning degli oggetti S3 | [EN](English/False-Ferry-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/False-Ferry-HTB-2026-ES.pdf) · [IT](Italiano/False-Ferry-HTB-2026-IT.pdf) |
+| Fireflow | HTB (Media, Linux) | Web / RCE / Kubernetes | Enumerazione sottodomini, RCE non autenticata (CVE-2026-33017, Langflow), riuso di credenziali, forgiatura JWT alg=none, exec del kubelet via nodes/proxy | [EN](English/Fireflow-HTB-2026-EN.pdf) · [ES](Espa%C3%B1ol/Fireflow-HTB-2026-ES.pdf) · [IT](Italiano/Fireflow-HTB-2026-IT.pdf) |
 
 ---
 
@@ -27,6 +28,15 @@ breakpoint e watchpoint hardware, automazione degli exploit in Python con pwntoo
 
 **Cloud security**: enumerazione di AWS tramite CLI, analisi dei permessi IAM, assunzione di ruoli
 via STS, recupero di versioni precedenti di oggetti da bucket S3.
+
+**Web exploitation e sicurezza applicativa**: enumerazione di sottodomini e API, identificazione e
+sfruttamento di CVE pubblici (esecuzione di codice remoto non autenticata), analisi dei percorsi di
+codice vulnerabili dal sorgente, sicurezza JWT (algorithm confusion e il difetto alg=none), forgiatura
+di token di autenticazione.
+
+**Sicurezza dei container e Kubernetes**: enumerazione di un pod compromesso, analisi dei permessi del
+service account, abuso del permesso nodes/proxy per raggiungere il kubelet, esecuzione di comandi in un
+pod privilegiato che monta il filesystem dell'host per l'evasione da container a host.
 
 ---
 
