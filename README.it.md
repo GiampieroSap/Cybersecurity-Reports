@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Emblem-blackutopia.png" alt="BlackUtopia" width="180">
+</p>
 # Report di Cybersecurity
 
 [English](README.md) · [Español](README.es.md) · **Italiano**
