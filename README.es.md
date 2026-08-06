@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="1emblem-blackutopia.png" alt="BlackUtopia" width="180">
+  <img src="Emblem-blackutopia.png" alt="BlackUtopia" width="180">
 </p>
 # Informes de Ciberseguridad
 
